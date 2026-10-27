@@ -94,6 +94,7 @@ export async function initDevice(root = document) {
   });
   setBusy(false);
   if (clear) clear.disabled = false;
+  if (status) status.textContent = '';
   root.documentElement.classList.add('app-ready');
 }
 

@@ -21,6 +21,9 @@ belong to this app sitemap. Main-site integration is tracked separately in Updat
 
 ## Local validation
 
+- Fixed the initial loading label so it clears once the interactive controls are ready.
+  Added a controller regression assertion for that transition.
+
 - 39 parser/controller unit tests passed, including negative/error cases.
 - All generated HTML, internal references, canonical/hreflang alternates and sitemap
   entries passed the offline validator. All pages contain the four publisher integrations.

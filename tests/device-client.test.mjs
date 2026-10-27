@@ -44,7 +44,9 @@ test('device client passes real click activation and renders metadata as literal
     const messages={'user-gesture-required':'Click directly','ok':'OK','product-name':'Product','manufacturer-name':'Maker','support-link':'Support','vendor-limited':'Limited','device-limited':'Picker only'};
     const usb=new Element();usb.disabled=true;
     const root=fixture({ui,messages,dataURL:'../data.json'},{'#device-form':new Element(),'#device-result':new Element(),'#usb-button':usb,'#clear-device-results':new Element(),'#hardware-id':new Element({value:'private input'})});
+    root.elements['#status'].textContent=ui.loading;
     await initDevice(root);
+    assert.equal(root.elements['#status'].textContent,'');
     assert.equal(usb.disabled,false);
     root.elements['#usb-button'].fire('click'); await new Promise(resolve=>setImmediate(resolve));
     assert.equal(calls,0); assert.equal(root.elements['#status'].textContent,'Click directly');
