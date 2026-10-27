@@ -1,0 +1,13 @@
+{
+  "slug": "device-driver-finder",
+  "type": "device",
+  "origin": "https://nanalab.kr/device-driver-finder",
+  "languages": [
+    "ko",
+    "en",
+    "es",
+    "zh",
+    "ja",
+    "de"
+  ]
+}

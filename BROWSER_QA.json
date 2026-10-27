@@ -1,0 +1,9 @@
+{
+  "status": "not_run",
+  "browserProvidersAvailable": 0,
+  "tabsCreated": 0,
+  "reason": "Computer-use inventory returned browsers: []. No browser was launched.",
+  "mobileViewportMeasured": false,
+  "physicalUsbHidGpuTested": false,
+  "controllerTestsUseMocks": true
+}

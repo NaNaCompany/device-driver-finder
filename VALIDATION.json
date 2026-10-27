@@ -1,0 +1,43 @@
+{
+  "pass": true,
+  "slug": "device-driver-finder",
+  "type": "device",
+  "languages": [
+    "ko",
+    "en",
+    "es",
+    "zh",
+    "ja",
+    "de"
+  ],
+  "entries": 0,
+  "pages": 6,
+  "internalLinksChecked": 121,
+  "externalLinksObserved": 26,
+  "publisherPages": 6,
+  "origin": "https://nanalab.kr/device-driver-finder",
+  "binariesHosted": 0,
+  "sourceHosts": [
+    "docs.arduino.cc",
+    "ftdichip.com",
+    "help.steampowered.com",
+    "learn.microsoft.com",
+    "support.arduino.cc",
+    "support.google.com",
+    "support.microsoft.com",
+    "support.nintendo.com",
+    "www.amd.com",
+    "www.broadcom.com",
+    "www.cisco.com",
+    "www.dell.com",
+    "www.intel.com",
+    "www.nvidia.com",
+    "www.playstation.com",
+    "www.qualcomm.com",
+    "www.realtek.com",
+    "www.silabs.com"
+  ],
+  "sourceUrlsCheckedStatically": 22,
+  "httpReachabilityChecked": false,
+  "browserOrPhysicalExecutionChecked": false
+}

@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "slug": "device-driver-finder",
+  "checkedAt": "2026-10-27",
+  "title": {
+    "ko": "장치 ID · 공식 드라이버 찾기",
+    "en": "Device ID & Official Driver Finder",
+    "es": "ID de dispositivo y soporte oficial",
+    "zh": "设备 ID 与官方驱动查找",
+    "ja": "デバイス ID・公式ドライバー検索",
+    "de": "Geräte-ID und offizielle Treiber finden"
+  },
+  "description": {
+    "ko": "선택한 USB/HID 장치 정보, 브라우저의 제한된 GPU 정보, 직접 입력한 PCI/USB ID로 공식 지원처를 찾습니다.",
+    "en": "Find official support using selected USB/HID metadata, limited browser GPU information, or a manually entered PCI/USB ID.",
+    "es": "Encuentra soporte oficial con metadatos USB/HID seleccionados, información limitada de GPU o un ID PCI/USB introducido manualmente.",
+    "zh": "使用所选 USB/HID 设备信息、浏览器提供的有限 GPU 信息或手动输入的 PCI/USB ID 查找官方支持。",
+    "ja": "選択した USB/HID 情報、ブラウザーの限定的な GPU 情報、手入力の PCI/USB ID から公式サポートを探します。",
+    "de": "Offiziellen Support über ausgewählte USB/HID-Metadaten, begrenzte GPU-Angaben des Browsers oder manuell eingegebene PCI/USB-IDs finden."
+  },
+  "entries": [],
+  "vendors": [
+    {
+      "id": "pci-8086",
+      "namespace": "pci",
+      "vendorId": "8086",
+      "brand": "Intel",
+      "supportUrl": "https://www.intel.com/content/www/us/en/support.html",
+      "sources": [
+        {
+          "label": "Official identifier reference",
+          "url": "https://www.intel.com/content/www/us/en/support/articles/000056278/ethernet-products/legacy-ethernet-products.html"
+        },
+        {
+          "label": "Official support",
+          "url": "https://www.intel.com/content/www/us/en/support.html"
+        }
+      ]
+    },
+    {
+      "id": "pci-10de",
+      "namespace": "pci",
+      "vendorId": "10DE",
+      "brand": "NVIDIA",
+      "supportUrl": "https://www.nvidia.com/en-us/drivers/",
+      "sources": [
+        {
+          "label": "Official identifier reference",
+          "url": "https://www.dell.com/support/kbdoc/en-us/000151898/how-to-identify-an-unknown-device-in-device-manager"
+        },
+        {
+          "label": "Official support",
+          "url": "https://www.nvidia.com/en-us/drivers/"
+        }
+      ]
+    },
+    {
+      "id": "pci-1002",
+      "namespace": "pci",
+      "vendorId": "1002",
+      "brand": "AMD",
+      "supportUrl": "https://www.amd.com/en/support.html",
+      "sources": [
+        {
+          "label": "Official identifier reference",
+          "url": "https://www.dell.com/support/kbdoc/en-us/000151898/how-to-identify-an-unknown-device-in-device-manager"
+        },
+        {
+          "label": "Official support",
+          "url": "https://www.amd.com/en/support.html"
+        }
+      ]
+    },
+    {
+      "id": "pci-10ec",
+      "namespace": "pci",
+      "vendorId": "10EC",
+      "brand": "Realtek",
+      "supportUrl": "https://www.realtek.com/Download/Index?cate_id=191&menu_id=297",
+      "sources": [
+        {
+          "label": "Official identifier reference",
+          "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/supported-ethernet-nics-for-network-kernel-debugging-in-windows-10"
+        },
+        {
+          "label": "Official support",
+          "url": "https://www.realtek.com/Download/Index?cate_id=191&menu_id=297"
+        }
+      ]
+    },
+    {
+      "id": "pci-14e4",
+      "namespace": "pci",
+      "vendorId": "14E4",
+      "brand": "Broadcom",
+      "supportUrl": "https://www.broadcom.com/support",
+      "sources": [
+        {
+          "label": "Official identifier reference",
+          "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/supported-ethernet-nics-for-network-kernel-debugging-in-windows-10"
+        },
+        {
+          "label": "Official support",
+          "url": "https://www.broadcom.com/support"
+        }
+      ]
+    },
+    {
+      "id": "pci-1969",
+      "namespace": "pci",
+      "vendorId": "1969",
+      "brand": "Atheros / Qualcomm",
+      "supportUrl": "https://www.qualcomm.com/support",
+      "sources": [
+        {
+          "label": "Official identifier reference",
+          "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/supported-ethernet-nics-for-network-kernel-debugging-in-windows-10"
+        },
+        {
+          "label": "Official support",
+          "url": "https://www.qualcomm.com/support"
+        }
+      ]
+    },
+    {
+      "id": "pci-15b3",
+      "namespace": "pci",
+      "vendorId": "15B3",
+      "brand": "Mellanox / NVIDIA",
+      "supportUrl": "https://www.nvidia.com/en-us/drivers/",
+      "sources": [
+        {
+          "label": "Official identifier reference",
+          "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/supported-ethernet-nics-for-network-kernel-debugging-in-windows-10"
+        },
+        {
+          "label": "Official support",
+          "url": "https://www.nvidia.com/en-us/drivers/"
+        }
+      ]
+    },
+    {
+      "id": "pci-1137",
+      "namespace": "pci",
+      "vendorId": "1137",
+      "brand": "Cisco",
+      "supportUrl": "https://www.cisco.com/c/en/us/support/index.html",
+      "sources": [
+        {
+          "label": "Official identifier reference",
+          "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/supported-ethernet-nics-for-network-kernel-debugging-in-windows-10"
+        },
+        {
+          "label": "Official support",
+          "url": "https://www.cisco.com/c/en/us/support/index.html"
+        }
+      ]
+    },
+    {
+      "id": "usb-045e",
+      "namespace": "usb",
+      "vendorId": "045E",
+      "brand": "Microsoft",
+      "supportUrl": "https://support.microsoft.com/",
+      "sources": [
+        {
+          "label": "Official identifier reference",
+          "url": "https://support.google.com/stadia/answer/13067284?hl=en"
+        },
+        {
+          "label": "Official support",
+          "url": "https://support.microsoft.com/"
+        }
+      ]
+    },
+    {
+      "id": "usb-054c",
+      "namespace": "usb",
+      "vendorId": "054C",
+      "brand": "Sony",
+      "supportUrl": "https://www.playstation.com/support/",
+      "sources": [
+        {
+          "label": "Official identifier reference",
+          "url": "https://support.google.com/stadia/answer/13067284?hl=en"
+        },
+        {
+          "label": "Official support",
+          "url": "https://www.playstation.com/support/"
+        }
+      ]
+    },
+    {
+      "id": "usb-057e",
+      "namespace": "usb",
+      "vendorId": "057E",
+      "brand": "Nintendo",
+      "supportUrl": "https://support.nintendo.com/",
+      "sources": [
+        {
+          "label": "Official identifier reference",
+          "url": "https://support.google.com/stadia/answer/13067284?hl=en"
+        },
+        {
+          "label": "Official support",
+          "url": "https://support.nintendo.com/"
+        }
+      ]
+    },
+    {
+      "id": "usb-28de",
+      "namespace": "usb",
+      "vendorId": "28DE",
+      "brand": "Valve",
+      "supportUrl": "https://help.steampowered.com/",
+      "sources": [
+        {
+          "label": "Official identifier reference",
+          "url": "https://support.google.com/stadia/answer/13067284?hl=en"
+        },
+        {
+          "label": "Official support",
+          "url": "https://help.steampowered.com/"
+        }
+      ]
+    },
+    {
+      "id": "usb-18d1",
+      "namespace": "usb",
+      "vendorId": "18D1",
+      "brand": "Google",
+      "supportUrl": "https://support.google.com/stadia/",
+      "sources": [
+        {
+          "label": "Official identifier reference",
+          "url": "https://support.google.com/stadia/answer/13067284?hl=en"
+        },
+        {
+          "label": "Official support",
+          "url": "https://support.google.com/stadia/"
+        }
+      ]
+    },
+    {
+      "id": "usb-0403",
+      "namespace": "usb",
+      "vendorId": "0403",
+      "brand": "FTDI",
+      "supportUrl": "https://ftdichip.com/drivers/",
+      "sources": [
+        {
+          "label": "Official identifier reference",
+          "url": "https://ftdichip.com/Support/Knowledgebase/macosxhowdoiknowwhatmydeviceid.htm"
+        },
+        {
+          "label": "Official support",
+          "url": "https://ftdichip.com/drivers/"
+        }
+      ]
+    },
+    {
+      "id": "usb-2341",
+      "namespace": "usb",
+      "vendorId": "2341",
+      "brand": "Arduino",
+      "supportUrl": "https://support.arduino.cc/",
+      "sources": [
+        {
+          "label": "Official identifier reference",
+          "url": "https://docs.arduino.cc/arduino-cli/platform-specification/"
+        },
+        {
+          "label": "Official support",
+          "url": "https://support.arduino.cc/"
+        }
+      ]
+    },
+    {
+      "id": "usb-10c4",
+      "namespace": "usb",
+      "vendorId": "10C4",
+      "brand": "Silicon Labs",
+      "supportUrl": "https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers",
+      "sources": [
+        {
+          "label": "Official identifier reference",
+          "url": "https://www.silabs.com/documents/public/application-notes/an220-usb-driver-customization.pdf"
+        },
+        {
+          "label": "Official support",
+          "url": "https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers"
+        }
+      ]
+    }
+  ]
+}

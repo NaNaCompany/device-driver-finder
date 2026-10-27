@@ -1,0 +1,17 @@
+{
+  "slug": "device-driver-finder",
+  "type": "device",
+  "languages": [
+    "ko",
+    "en",
+    "es",
+    "zh",
+    "ja",
+    "de"
+  ],
+  "entries": 0,
+  "pages": 6,
+  "origin": "https://nanalab.kr/device-driver-finder",
+  "checkedAt": "2026-10-27",
+  "binariesHosted": 0
+}

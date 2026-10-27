@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nanalab.kr/device-driver-finder/sitemap.xml

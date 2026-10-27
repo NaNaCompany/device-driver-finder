@@ -1,0 +1,10 @@
+{
+  "slug": "device-driver-finder",
+  "pass": true,
+  "testsPassed": 39,
+  "testsFailed": 0,
+  "source_sha256": "1a7201a1808b016f0694e63d83b98f173a111adfb967431e5a2856dae11125d9",
+  "dist_sha256": "9d79223d2f47785d51866c10f88cac73b66cfc01f92396a4b7bd7757e2156055",
+  "reproducibleBuild": true,
+  "browserOrPhysicalExecutionChecked": false
+}
